@@ -1,0 +1,18 @@
+cordova -d create C:\Users\kylpol\SAPHybrid\Cordova_Projects\Kapsel_Projects\BSE_Pic_Upload_4 com.bse.picupload picupload "{\"plugin_search_path\":\"C:/SMP3_SDK_OLD/modules/KapselSDK/plugins/\"}"
+
+C:\SMP_SDK
+
+cordova -d create C:\MyCordova\Kapsel_Projects\Android\Truck\Git com.BSE.TruckDriverSignatureCapture TruckDriverSignatureCapture "{\"plugin_search_path\":\"C:/SMP_SDK/modules/KapselSDK/plugins/\"}"
+
+C:\MyCordova\Kapsel_Projects\Android\Truck
+
+
+cordova -d plugin add C:\SMP_SDK\modules\KapselSDK\plugins\logon --searchpath C:\SMP_SDK\modules\KapselSDK\plugins
+
+cordova -d plugin add C:\SMP_SDK\modules\KapselSDK\plugins\odata --searchpath C:\SMP_SDK\modules\KapselSDK\plugins
+
+cordova -d plugin add C:\SMP_SDK\modules\KapselSDK\plugins\logger --searchpath C:\SMP_SDK\modules\KapselSDK\plugins
+
+cordova -d plugin add C:\SMP_SDK\modules\KapselSDK\plugins\encryptedstorage --searchpath C:\SMP_SDK\modules\KapselSDK\plugins
+
+cordova -d plugin add C:\SMP_SDK\modules\KapselSDK\plugins\appupdate --searchpath C:\SMP_SDK\modules\KapselSDK\plugins
